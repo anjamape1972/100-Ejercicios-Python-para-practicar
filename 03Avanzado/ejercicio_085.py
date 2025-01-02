@@ -39,14 +39,5 @@ def busquedaDicotomica (L, elt):
             else:
                 return busquedaDicotomica (L [mitad + 1:], elt)
 
-
-
-
-        
-
-
-
-
-
 print (busquedaDicotomica ([6, 9, 15, 36, 41, 43, 47], 9))
 print (busquedaDicotomica ([-9, -1, 3, 4, 7, 11], 0))
